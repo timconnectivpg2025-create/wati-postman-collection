@@ -688,6 +688,34 @@
 				"description": "Send Template Message"
 			},
 			"response": []
+		            }
+ 	             }
+             }
+             "url": {
+					"raw": "{{URL}}/api/v1/assignOperator?email=agent-email@clare.ai&whatsappNumber={{whatsappNumber}}",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"assignOperator"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "agent-email@clare.ai",
+							"description": "Agent email"
+						},
+						{
+							"key": "whatsappNumber",
+							"value": "{{whatsappNumber}}"
+						}
+					]
+				},
+				"description": "Send Template Message"
+			},
+			"response": []
 		}
 	]
 }
